@@ -15,6 +15,14 @@
 
 **TCP Three-Way Handshake:**
 
+هي عملية إنشاء اتصال بين جهازين باستخدام TCP، وتتكون من ثلاث خطوات:
+
+1. **SYN:** الجهاز Client يرسل طلب بدء الاتصال إلى Server.
+2. **SYN-ACK:** الجهاز Server يرد بالموافقة ويؤكد استلام الطلب.
+3. **ACK:** الجهاز Client يؤكد استلام الرد، وبكده يصبح الاتصال جاهزًا لنقل البيانات.
+
+![TCP Three-Way Handshake](assets/tcp-handshake.svg)
+
 ## 2. Common Ports
 
 | Port | Protocol / Service | Purpose |
