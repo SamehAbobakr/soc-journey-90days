@@ -1,1 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+  <rect width="900" height="560" rx="20" fill="#0f172a"/>
 
+  <text x="450" y="55" text-anchor="middle" fill="#f8fafc" font-size="28" font-weight="bold">TCP Three-Way Handshake</text>
+
+  <text x="225" y="110" text-anchor="middle" fill="#60a5fa" font-size="22" font-weight="bold">Client</text>
+  <text x="675" y="110" text-anchor="middle" fill="#34d399" font-size="22" font-weight="bold">Server</text>
+
+  <line x1="225" y1="130" x2="225" y2="450" stroke="#64748b" stroke-width="2" stroke-dasharray="8 7"/>
+  <line x1="675" y1="130" x2="675" y2="450" stroke="#64748b" stroke-width="2" stroke-dasharray="8 7"/>
+
+  <path d="M235 175 L665 175" stroke="#60a5fa" stroke-width="3" fill="none"/>
+  <path d="M650 165 L665 175 L650 185" stroke="#60a5fa" stroke-width="3" fill="none"/>
+  <text x="450" y="160" text-anchor="middle" fill="#60a5fa" font-size="19" font-weight="bold">1. SYN</text>
+
+  <path d="M665 285 L235 285" stroke="#34d399" stroke-width="3" fill="none"/>
+  <path d="M250 275 L235 285 L250 295" stroke="#34d399" stroke-width="3" fill="none"/>
+  <text x="450" y="270" text-anchor="middle" fill="#34d399" font-size="19" font-weight="bold">2. SYN-ACK</text>
+
+  <path d="M235 395 L665 395" stroke="#fbbf24" stroke-width="3" fill="none"/>
+  <path d="M650 385 L665 395 L650 405" stroke="#fbbf24" stroke-width="3" fill="none"/>
+  <text x="450" y="380" text-anchor="middle" fill="#fbbf24" font-size="19" font-weight="bold">3. ACK</text>
+
+  <rect x="270" y="465" width="360" height="55" rx="12" fill="#1e293b"/>
+  <text x="450" y="500" text-anchor="middle" fill="#f8fafc" font-size="19">Connection Established</text>
+</svg>
