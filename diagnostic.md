@@ -5,9 +5,15 @@
 **Purpose:** Evaluate my networking knowledge from memory without external resources.
 
 ## 1. TCP vs UDP
-- Explain the TCP three-way handshake.
-- What is the difference between TCP and UDP?
-- When would you use each protocol?
+## 1. TCP vs UDP
+
+**TCP:**
+مناسب لنقل البيانات التي تحتاج إلى وصول موثوق ودون فقد أو تغيير غير مكتشف، مثل نقل الملفات.
+
+**UDP:**
+مناسب للتطبيقات التي تفضّل السرعة وتقليل التأخير، مثل البث المباشر والمكالمات الصوتية والمرئية.
+
+**TCP Three-Way Handshake:**
 
 ## 2. Common Ports
 
