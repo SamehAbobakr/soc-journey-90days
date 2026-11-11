@@ -77,10 +77,29 @@
 | PTR | IP → Domain (Reverse DNS) |
 
 ## 4. ARP and NAT
-- What is ARP?
-- How does ARP work?
-- What is NAT?
-- Why is NAT used?
+
+### ARP (Address Resolution Protocol)
+
+- بروتوكول بيستخدم لمعرفة MAC Address الخاص بجهاز عن طريق معرفة IP Address بتاعه داخل الشبكة المحلية (LAN).
+
+### How ARP Works
+
+1. **ARP Request:** الجهاز بيرسل Broadcast بيسأل مين صاحب الـ IP المطلوب؟
+2. **ARP Reply:** الجهاز صاحب الـ IP بيرد بعنوان MAC Address الخاص به.
+3. **ARP Cache:** الجهاز بيخزن العلاقة بين IP وMAC مؤقتًا لتقليل تكرار الطلبات.
+
+### NAT (Network Address Translation)
+
+- تقنية بتسمح للراوتر بتغيير عناوين IP أثناء انتقال البيانات بين الشبكة الداخلية والإنترنت.
+- بتحوّل Private IP إلى Public IP عند خروج البيانات للإنترنت، والعكس عند رجوع الرد.
+
+### Why NAT Is Used?
+
+- **IP Address Conservation:** توفير عناوين IPv4 العامة.
+- **Multiple Devices:** السماح لأجهزة متعددة باستخدام Public IP واحد عن طريق PAT.
+- **Private Network:** استخدام Private IPs داخل الشبكة بدلًا من تخصيص Public IP لكل جهاز.
+
+**Note:** NAT helps reduce the need for public IPv4 addresses, while IPv6 provides a much larger address space to solve IPv4 address exhaustion.
 
 ## 5. Network Devices
 - Switch:
