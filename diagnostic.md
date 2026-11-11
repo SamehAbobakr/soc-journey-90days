@@ -101,12 +101,42 @@
 
 **Note:** NAT helps reduce the need for public IPv4 addresses, while IPv6 provides a much larger address space to solve IPv4 address exhaustion.
 
-## 5. Network Devices
-- Switch:
-- Router:
-- Firewall:
+## 5. Network Devices (أجهزة الشبكات)
 
-## 6. Self-Assessment
-- Topics I understand well:
-- Topics I find difficult:
-- Topics I need to review:
+### 1. Switch (السويتش)
+
+- بيستخدم لربط الأجهزة داخل شبكة محلية (LAN).
+- بيعتمد على MAC Address لتحديد الأجهزة وإرسال البيانات إليها.
+- بيشتغل بشكل أساسي في Layer 2 (Data Link Layer).
+- بيستخدم جدول MAC Address Table لمعرفة الأجهزة المتصلة بكل Port.
+
+### 2. Router (الراوتر)
+
+- بيستخدم لربط شبكات مختلفة ببعض وتوجيه البيانات بينها.
+- بيعتمد على IP Address لتحديد وجهة البيانات.
+- بيشتغل بشكل أساسي في Layer 3 (Network Layer).
+- بيستخدم Routing Table لاختيار المسار المناسب.
+- ممكن يربط الشبكة المحلية (LAN) بالإنترنت (WAN).
+
+### 3. Firewall (جدار الحماية)
+
+- جهاز أو برنامج بيستخدم لمراقبة والتحكم في Network Traffic.
+- بيسمح أو يمنع الاتصالات بناءً على Security Rules.
+- ممكن يعتمد على:
+  - Source IP Address
+  - Destination IP Address
+  - Port Number
+  - Protocol (TCP/UDP)
+  - Connection State
+- بيساعد في حماية الشبكة من الاتصالات غير المصرح بها.
+
+### 4. Quick Comparison
+
+| Device | Main Function | Layer |
+|---|---|---|
+| Switch | Connecting devices within a LAN | Layer 2 |
+| Router | Routing traffic between networks | Layer 3 |
+| Firewall | Filtering and controlling network traffic | Depends on type |
+
+**Note:** A Firewall does not prevent all attacks. Its effectiveness depends on its type, configuration, and security rules.
+
