@@ -137,6 +137,8 @@
 | Switch | Connecting devices within a LAN | Layer 2 |
 | Router | Routing traffic between networks | Layer 3 |
 | Firewall | Filtering and controlling network traffic | Depends on type |
+
+
 ![Network Devices](images/imagesnetwork-devices.png)
 **Note:** A Firewall does not prevent all attacks. Its effectiveness depends on its type, configuration, and security rules.
 
