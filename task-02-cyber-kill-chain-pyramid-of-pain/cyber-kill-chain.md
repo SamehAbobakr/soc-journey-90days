@@ -1,5 +1,21 @@
 # Cyber Kill Chain | سلسلة مراحل الهجوم السيبراني
 
+
+## Cyber Kill Chain Diagram
+
+```mermaid
+flowchart TD
+    A["1. Reconnaissance - الاستطلاع"] --> B["2. Weaponization - التجهيز"]
+    B --> C["3. Delivery - التسليم"]
+    C --> D["4. Exploitation - الاستغلال"]
+    D --> E["5. Installation - التثبيت"]
+    E --> F["6. Command and Control - التحكم والسيطرة"]
+    F --> G["7. Actions on Objectives - تحقيق الأهداف"]
+
+    classDef stage fill:#12304a,stroke:#22a6b3,color:#ffffff,stroke-width:2px
+    class A,B,C,D,E,F,G stage
+```
+
 ## 1. Definition | التعريف
 
 **English:**
