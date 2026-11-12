@@ -1,8 +1,7 @@
 
 # Pyramid of Pain
 
-![Pyramid of Pain](assets
-/pyramid-of-pain.svg)
+![Pyramid of Pain](assets/pyramid-of-pain.svg)
 
 ## 1. Definition (التعريف)
 
