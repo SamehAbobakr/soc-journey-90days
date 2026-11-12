@@ -1,4 +1,7 @@
+
 # Pyramid of Pain
+
+![Pyramid of Pain](images/pyramid-of-pain.svg)
 
 ## 1. Definition (التعريف)
 
