@@ -1,1 +1,80 @@
 
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="760" viewBox="0 0 900 760">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#172554"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="760" rx="24" fill="url(#bg)"/>
+
+  <text x="450" y="65" fill="#ffffff" font-size="34"
+        font-weight="bold" text-anchor="middle">
+    PYRAMID OF PAIN
+  </text>
+  <text x="450" y="100" fill="#94a3b8" font-size="17"
+        text-anchor="middle">
+    How difficult is it for an attacker to change?
+  </text>
+
+  <!-- Level 6 -->
+  <polygon points="450,135 525,235 375,235"
+           fill="#ef4444" stroke="#ffffff" stroke-width="2"/>
+  <text x="450" y="196" fill="#ffffff" font-size="18"
+        font-weight="bold" text-anchor="middle">TTPs</text>
+  <text x="450" y="217" fill="#ffffff" font-size="12"
+        text-anchor="middle">Tactics, Techniques, Procedures</text>
+
+  <!-- Level 5 -->
+  <polygon points="375,240 525,240 580,330 320,330"
+           fill="#f97316" stroke="#ffffff" stroke-width="2"/>
+  <text x="450" y="278" fill="#ffffff" font-size="20"
+        font-weight="bold" text-anchor="middle">Tools</text>
+  <text x="450" y="303" fill="#ffffff" font-size="14"
+        text-anchor="middle">Challenging</text>
+
+  <!-- Level 4 -->
+  <polygon points="320,335 580,335 635,425 265,425"
+           fill="#eab308" stroke="#ffffff" stroke-width="2"/>
+  <text x="450" y="373" fill="#172554" font-size="19"
+        font-weight="bold" text-anchor="middle">Network / Host Artifacts</text>
+  <text x="450" y="398" fill="#172554" font-size="14"
+        text-anchor="middle">Annoying</text>
+
+  <!-- Level 3 -->
+  <polygon points="265,430 635,430 690,520 210,520"
+           fill="#22c55e" stroke="#ffffff" stroke-width="2"/>
+  <text x="450" y="468" fill="#052e16" font-size="20"
+        font-weight="bold" text-anchor="middle">Domain Names</text>
+  <text x="450" y="493" fill="#052e16" font-size="14"
+        text-anchor="middle">Simple</text>
+
+  <!-- Level 2 -->
+  <polygon points="210,525 690,525 745,615 155,615"
+           fill="#0ea5e9" stroke="#ffffff" stroke-width="2"/>
+  <text x="450" y="563" fill="#ffffff" font-size="20"
+        font-weight="bold" text-anchor="middle">IP Addresses</text>
+  <text x="450" y="588" fill="#ffffff" font-size="14"
+        text-anchor="middle">Easy</text>
+
+  <!-- Level 1 -->
+  <polygon points="155,620 745,620 800,710 100,710"
+           fill="#6366f1" stroke="#ffffff" stroke-width="2"/>
+  <text x="450" y="658" fill="#ffffff" font-size="20"
+        font-weight="bold" text-anchor="middle">Hash Values</text>
+  <text x="450" y="683" fill="#ffffff" font-size="14"
+        text-anchor="middle">Trivial</text>
+
+  <text x="40" y="425" fill="#f87171" font-size="15"
+        font-weight="bold" text-anchor="middle"
+        transform="rotate(-90 40 425)">
+    MORE PAIN FOR ATTACKER
+  </text>
+
+  <text x="450" y="740" fill="#94a3b8" font-size="13"
+        text-anchor="middle">
+    Based on David Bianco's Pyramid of Pain
+  </text>
+</svg>
+
