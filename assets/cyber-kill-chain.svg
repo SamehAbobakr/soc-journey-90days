@@ -1,1 +1,12 @@
 
+flowchart LR
+    A["1. Reconnaissance<br/>الاستطلاع"] --> B["2. Weaponization<br/>التجهيز"]
+    B --> C["3. Delivery<br/>التسليم"]
+    C --> D["4. Exploitation<br/>الاستغلال"]
+    D --> E["5. Installation<br/>التثبيت"]
+    E --> F["6. Command & Control<br/>التحكم والسيطرة"]
+    F --> G["7. Actions on Objectives<br/>تحقيق الأهداف"]
+
+    classDef stage fill:#12304a,stroke:#22a6b3,color:#ffffff,stroke-width:2px
+    class A,B,C,D,E,F,G stage
+
