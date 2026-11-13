@@ -30,6 +30,8 @@ A virtual lab was created using VMware Workstation to practice basic SOC operati
 - Network Mode: NAT
 - Snapshot: Clean Snapshot Created
 
+ ![SOC Virtual Lab Network Diagram](images/network-diagram.svg)
+
 ## 4. Network Connectivity
 
 Both virtual machines were configured using VMware NAT networking.
