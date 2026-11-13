@@ -30,8 +30,6 @@ A virtual lab was created using VMware Workstation to practice basic SOC operati
 - Network Mode: NAT
 - Snapshot: Clean Snapshot Created
 
- ![SOC Virtual Lab Network Diagram](images/network-diagram.svg)
-
 ## 4. Network Connectivity
 
 Both virtual machines were configured using VMware NAT networking.
@@ -67,18 +65,16 @@ Status: Successful
 
 ## 5. Network Diagram
 
-```text
-             VMware NAT Network
-                192.168.153.0/24
-                       |
-              +--------+--------+
-              |                 |
-        Windows VM         Ubuntu Server
-      192.168.153.133      192.168.153.132
-              |                 |
-              +------ Ping -----+
-                 Connectivity
-```
+### Actual Lab Network Topology
+
+![SOC Virtual Lab Network Diagram](images/network-diagram.svg)
+
+### How NAT Networking Works
+
+![VMware NAT Network Explanation](images/nat-network.svg)
+
+*Illustrative diagram explaining the general NAT networking concept. It is not a screenshot of the actual VMware configuration.*
+
 
 ## 6. Snapshots
 
