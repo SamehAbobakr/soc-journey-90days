@@ -1,0 +1,52 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="internet" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="650" rx="24" fill="url(#bg)"/>
+
+  <text x="500" y="55" fill="#f8fafc" font-size="30" font-weight="bold" text-anchor="middle">How VMware NAT Networking Works</text>
+  <text x="500" y="88" fill="#94a3b8" font-size="17" text-anchor="middle">Conceptual Network Architecture</text>
+
+  <!-- Internet -->
+  <rect x="370" y="125" width="260" height="90" rx="16" fill="#172554" stroke="#3b82f6" stroke-width="2"/>
+  <circle cx="500" cy="153" r="13" fill="none" stroke="#93c5fd" stroke-width="2"/>
+  <path d="M487 153 H513 M500 140 V166 M491 143 Q500 153 491 163 M509 143 Q500 153 509 163" stroke="#93c5fd" fill="none" stroke-width="1.5"/>
+  <text x="500" y="195" fill="#bfdbfe" font-size="22" font-weight="bold" text-anchor="middle">Internet</text>
+
+  <!-- Connection -->
+  <path d="M500 215 V275" stroke="url(#internet)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M490 261 L500 275 L510 261" fill="none" stroke="#0d9488" stroke-width="4"/>
+
+  <!-- NAT Gateway -->
+  <rect x="325" y="275" width="350" height="105" rx="16" fill="#134e4a" stroke="#10b981" stroke-width="2"/>
+  <text x="500" y="316" fill="#a7f3d0" font-size="24" font-weight="bold" text-anchor="middle">VMware NAT Gateway</text>
+  <text x="500" y="349" fill="#d1fae5" font-size="17" text-anchor="middle">Translates private traffic to host network traffic</text>
+
+  <!-- Private Network -->
+  <rect x="55" y="420" width="890" height="195" rx="18" fill="#172554" fill-opacity="0.55" stroke="#64748b" stroke-width="2" stroke-dasharray="9 7"/>
+  <text x="500" y="455" fill="#bfdbfe" font-size="22" font-weight="bold" text-anchor="middle">Private NAT Network • 192.168.153.0/24</text>
+
+  <path d="M500 380 V485 H250 V510 M500 485 H750 V510" fill="none" stroke="#0d9488" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Windows -->
+  <rect x="105" y="510" width="290" height="80" rx="13" fill="#1e293b" stroke="#3b82f6" stroke-width="2"/>
+  <text x="250" y="543" fill="#f8fafc" font-size="21" font-weight="bold" text-anchor="middle">Windows VM</text>
+  <text x="250" y="572" fill="#93c5fd" font-size="18" text-anchor="middle">192.168.153.133</text>
+
+  <!-- Ubuntu -->
+  <rect x="605" y="510" width="290" height="80" rx="13" fill="#1e293b" stroke="#10b981" stroke-width="2"/>
+  <text x="750" y="543" fill="#f8fafc" font-size="21" font-weight="bold" text-anchor="middle">Ubuntu Server</text>
+  <text x="750" y="572" fill="#6ee7b7" font-size="18" text-anchor="middle">192.168.153.132</text>
+
+  <text x="500" y="637" fill="#94a3b8" font-size="14" text-anchor="middle">Conceptual illustration — not a screenshot of the actual VMware configuration</text>
+</svg>
+
